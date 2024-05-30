@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const FeaturedProperties = () => {
   return (
-    <div className="container max-auto border-b py-6 pb-10">
+    <section className="container max-auto border-b py-6 pb-10">
       <h2 className="text-center text-3xl tracking-tighter sm:text-4xl lg:text-5xl">
         Featured Properties
       </h2>
@@ -36,7 +36,7 @@ const FeaturedProperties = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
