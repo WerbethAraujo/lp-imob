@@ -3,7 +3,7 @@ import { CircleCheckBig } from "lucide-react";
 
 const HowItWorks = () => {
   return (
-    <div className="container mx-auto my-10 border-b px-10">
+    <div className="container mx-auto my-10 border-b pb-10">
       <h2 className="text-center text-3xl tracking-tighter sm:text-4xl lg:text-5xl">
         {HOW_IT_WORKS.title}
       </h2>
